@@ -38,5 +38,5 @@ describe('Notes view', () => {
 
     expect(document.querySelectorAll('div.note').length).toEqual(1);
     expect(document.querySelectorAll('div.note')[0].textContent).toEqual('This new test');
-  })
+  });
 });
